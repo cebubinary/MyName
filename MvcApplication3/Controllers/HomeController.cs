@@ -14,7 +14,7 @@ namespace MvcApplication3.Controllers
 
         public ActionResult Index()
         {
-            
+            // Some comments
             return View(Information.Context.Accounts);
         }
 
