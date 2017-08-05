@@ -14,8 +14,8 @@ namespace MvcApplication3.Controllers
 
         public ActionResult Index()
         {
-            Information i = new Information();
-            return View(i.Accounts);
+            
+            return View(Information.Context.Accounts);
         }
 
         public ActionResult Add()
@@ -25,8 +25,8 @@ namespace MvcApplication3.Controllers
         }
         public ActionResult Save(Account acc)
         {
-
-            return View();
+            Information.Context.Accounts.Add(acc);
+            return RedirectToAction("Index");
         }
     }
 }

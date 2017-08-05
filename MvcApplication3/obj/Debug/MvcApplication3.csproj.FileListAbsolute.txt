@@ -32,3 +32,38 @@ c:\users\dgulane\documents\visual studio 2010\Projects\MvcApplication3\MvcApplic
 c:\users\dgulane\documents\visual studio 2010\Projects\MvcApplication3\MvcApplication3\obj\Debug\MvcApplication3.csprojResolveAssemblyReference.cache
 c:\users\dgulane\documents\visual studio 2010\Projects\MvcApplication3\MvcApplication3\obj\Debug\MvcApplication3.dll
 c:\users\dgulane\documents\visual studio 2010\Projects\MvcApplication3\MvcApplication3\obj\Debug\MvcApplication3.pdb
+D:\Test\MyName\MvcApplication3\bin\MvcApplication3.dll.config
+D:\Test\MyName\MvcApplication3\bin\MvcApplication3.dll
+D:\Test\MyName\MvcApplication3\bin\MvcApplication3.pdb
+D:\Test\MyName\MvcApplication3\bin\Antlr3.Runtime.dll
+D:\Test\MyName\MvcApplication3\bin\EntityFramework.dll
+D:\Test\MyName\MvcApplication3\bin\Microsoft.Web.Infrastructure.dll
+D:\Test\MyName\MvcApplication3\bin\Newtonsoft.Json.dll
+D:\Test\MyName\MvcApplication3\bin\System.Net.Http.dll
+D:\Test\MyName\MvcApplication3\bin\System.Net.Http.Formatting.dll
+D:\Test\MyName\MvcApplication3\bin\System.Net.Http.WebRequest.dll
+D:\Test\MyName\MvcApplication3\bin\System.Web.Http.dll
+D:\Test\MyName\MvcApplication3\bin\System.Web.Http.WebHost.dll
+D:\Test\MyName\MvcApplication3\bin\System.Web.Mvc.dll
+D:\Test\MyName\MvcApplication3\bin\System.Web.Optimization.dll
+D:\Test\MyName\MvcApplication3\bin\System.Web.Providers.dll
+D:\Test\MyName\MvcApplication3\bin\System.Web.Razor.dll
+D:\Test\MyName\MvcApplication3\bin\System.Web.WebPages.Deployment.dll
+D:\Test\MyName\MvcApplication3\bin\System.Web.WebPages.dll
+D:\Test\MyName\MvcApplication3\bin\System.Web.WebPages.Razor.dll
+D:\Test\MyName\MvcApplication3\bin\WebGrease.dll
+D:\Test\MyName\MvcApplication3\bin\EntityFramework.xml
+D:\Test\MyName\MvcApplication3\bin\Newtonsoft.Json.xml
+D:\Test\MyName\MvcApplication3\bin\System.Net.Http.xml
+D:\Test\MyName\MvcApplication3\bin\System.Net.Http.Formatting.xml
+D:\Test\MyName\MvcApplication3\bin\System.Net.Http.WebRequest.xml
+D:\Test\MyName\MvcApplication3\bin\System.Web.Http.xml
+D:\Test\MyName\MvcApplication3\bin\System.Web.Http.WebHost.xml
+D:\Test\MyName\MvcApplication3\bin\System.Web.Mvc.xml
+D:\Test\MyName\MvcApplication3\bin\System.Web.Razor.xml
+D:\Test\MyName\MvcApplication3\bin\System.Web.WebPages.xml
+D:\Test\MyName\MvcApplication3\bin\System.Web.WebPages.Deployment.xml
+D:\Test\MyName\MvcApplication3\bin\System.Web.WebPages.Razor.xml
+D:\Test\MyName\MvcApplication3\obj\Debug\MvcApplication3.csprojResolveAssemblyReference.cache
+D:\Test\MyName\MvcApplication3\obj\Debug\MvcApplication3.dll
+D:\Test\MyName\MvcApplication3\obj\Debug\MvcApplication3.pdb

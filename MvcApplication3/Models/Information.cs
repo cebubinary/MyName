@@ -8,8 +8,19 @@ namespace MvcApplication3.Models
     public class Information
     {
         public List<Account> Accounts;
+        private static Information _information;
+        public static Information Context
+        {
+            get {
+                if (_information == null)
+                {
+                    _information = new Information();
+                }
+                return _information;
+            }
+        }
 
-        public Information()
+        private Information()
         {
             Accounts = new List<Account>();
             Accounts.Add(new Account { Id = 1, Name = "My name 1", Age = 12 });
