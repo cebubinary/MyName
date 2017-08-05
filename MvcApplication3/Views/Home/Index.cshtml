@@ -6,7 +6,18 @@
     
 @foreach (var item in Model)
 {
+    
+    @Html.DisplayFor(asdf => item.Id);
+    <text>&nbsp;</text>
     @Html.DisplayFor(asdf => item.Name);
-    <br/>                                       
-                                       
+    <text>&nbsp;</text>
+    @Html.DisplayFor(asdf => item.Age);
+    <text>&nbsp;</text>
+
+    @Html.ActionLink("Edit", "Edit", new { Id = item.Id})
+    <text>&nbsp;</text>
+
+    @Html.ActionLink("Delete", "Delete", new { Id = item.Id })
+    <br />
+
 }

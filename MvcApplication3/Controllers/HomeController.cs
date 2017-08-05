@@ -25,7 +25,38 @@ namespace MvcApplication3.Controllers
         }
         public ActionResult Save(Account acc)
         {
-            Information.Context.Accounts.Add(acc);
+            var selected = Information.Context.Accounts.FirstOrDefault(x => x.Id == acc.Id);
+            if (selected != null)
+            {
+                //Edit
+                selected.Name = acc.Name;
+                selected.Age = acc.Age;
+            }
+            else
+            {
+                //Add
+                acc.Id = Information.Context.TagaiKoUgSunodNaId();
+                Information.Context.Accounts.Add(acc);
+
+            }
+
+
+            return RedirectToAction("Index");
+        }
+        public ActionResult Edit(int id)
+        {
+            
+            return View(Information.Context.Accounts.FirstOrDefault(x => x.Id == id));
+        }
+        public ActionResult Delete(int id)
+        {
+            var selected = Information.Context.Accounts.FirstOrDefault(x => x.Id == id);
+            if (selected != null)
+            {
+                //Remove
+                Information.Context.Accounts.Remove(selected);
+
+            }
             return RedirectToAction("Index");
         }
     }

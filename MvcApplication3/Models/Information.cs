@@ -29,5 +29,9 @@ namespace MvcApplication3.Models
 
             
         }
+        public int TagaiKoUgSunodNaId()
+        {
+            return Accounts.Any() ? Accounts.Select(x => x.Id).Max() +1 : 1;
+        }
     }
 }
