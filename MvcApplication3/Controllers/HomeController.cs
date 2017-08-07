@@ -12,15 +12,19 @@ namespace MvcApplication3.Controllers
         //
         // GET: /Home/
 
-        public ActionResult Index()
+        public ActionResult Index(string search="", string id = "")
         {
+
+            if(search != "")
+            {
+                return View(Information.Context.Accounts.Where(a=>a.Age.ToString() == search || a.Name == search));
+            }
             // Some comments
             return View(Information.Context.Accounts);
         }
 
         public ActionResult Add()
-        {
-           
+        {           
             return View();
         }
         public ActionResult Save(Account acc)
@@ -39,8 +43,6 @@ namespace MvcApplication3.Controllers
                 Information.Context.Accounts.Add(acc);
 
             }
-
-
             return RedirectToAction("Index");
         }
         public ActionResult Edit(int id)
@@ -58,6 +60,10 @@ namespace MvcApplication3.Controllers
 
             }
             return RedirectToAction("Index");
+        }
+        public ActionResult Search(string search)
+        {       
+            return RedirectToAction("Index","Home", new {search, id = search});
         }
     }
 }

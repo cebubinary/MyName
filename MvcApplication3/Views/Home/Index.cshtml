@@ -2,6 +2,14 @@
 
 
 @Html.ActionLink("Add", "Add")
+
+<form method="get" action="@Url.Action("Search", "Home")">
+    <label>Search</label>
+    <input type="text" name="search" />
+    <button type="submit">Perform search</button>
+</form>
+
+
 <br/>                                       
     
 @foreach (var item in Model)
